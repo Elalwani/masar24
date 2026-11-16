@@ -1,0 +1,18 @@
+{
+  // مسار 24: الموقع (dist) والخادم الجماعي في نشر واحد على Cloudflare
+  "name": "masar24",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./",
+    "run_worker_first": ["/api/*", "/ws/*"]
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "ROOMS", "class_name": "Room" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Room"] }],
+  "vars": {
+    // مواقع إضافية مسموح لها بالاتصال (مفصولة بفاصلة). اتركها فارغة إن كانت اللعبة تُخدَّم من نفس العنوان.
+    "ALLOWED_ORIGINS": ""
+  }
+}
