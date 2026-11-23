@@ -1,0 +1,27 @@
+{
+  "name": "مسار 24 — MASAR 24",
+  "short_name": "مسار 24",
+  "description": "لعبة الطاولة الاستراتيجية مسار 24 مع اللعب ضد الذكاء الاصطناعي والدردشة الصوتية المباشرة.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10241b",
+  "theme_color": "#0f3d2a",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
