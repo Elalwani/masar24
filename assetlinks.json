@@ -1,0 +1,8 @@
+[{
+"relation": ["delegate_permission/common.handle_all_urls"],
+"target": {
+"namespace": "android_app",
+"package_name": "app.netlify.verdant_trifle_5e494c.twa",
+"sha256_cert_fingerprints": ["A2:7F:7E:9A:44:A6:75:9F:D9:33:6A:42:6D:84:07:1C:4A:C1:D2:52:AD:FA:32:BB:23:7A:79:EB:77:00:F8:6A"]
+}
+}]
